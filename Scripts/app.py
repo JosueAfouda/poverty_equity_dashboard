@@ -282,10 +282,26 @@ app.layout = html.Div([
         dbc.Tab([
             html.Ul([
                 html.Br(),
-                html.Li('Josué AFOUDA, Fondateur de J.A DATATECH CONSULTING'),
-                html.Li(['Contactez-moi sur Linkedin: ',
+                html.Li('Josué AFOUDA, Data Scientist'),
+                html.Li(['Répertoire ',
+                         html.A('GitHub',
+                                href='https://github.com/JosueAfouda/poverty_equity_dashboard.git')
+                         ]),
+                html.Li(['Ma page ',
                          html.A('Linkedin',
                                 href='https://www.linkedin.com/in/ja-datatech-consulting-741693217')
+                         ]),
+                html.Li(['Ma chaîne ',
+                         html.A('YouTube',
+                                href='https://www.youtube.com/channel/UCpd56FfjlkKbkHlbgY6XE3w')
+                         ]),
+                html.Li(['Mon ',
+                         html.A('Site Web',
+                                href='https://afouda-datascience.com')
+                         ]),
+                html.Li(['Mon Blog ',
+                         html.A('Medium',
+                                href='https://medium.com/@afouda.josue/tout-ce-que-vous-devez-savoir-sur-la-data-science-23bd3e746a4c')
                          ])
             ])
         ], label='Poject Info')
