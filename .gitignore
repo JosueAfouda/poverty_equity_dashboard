@@ -1,0 +1,4 @@
+poverty_equity_dashboard
+*.pyc
+.DS_Store
+.env
