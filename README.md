@@ -4,6 +4,9 @@ Source des données : https://datacatalog.worldbank.org/search/dataset/0038020
 
 Environnement de Développement : Visual Studio Code
 
-Frameworks : Dash, Plotly
+Frameworks : Dash, Plotly et autres packages
 
 Langage de programmation : Python
+
+J'ai fait le déploiement sur Python. Lien de l'application : https://povertydashboardafouda.herokuapp.com/
+
